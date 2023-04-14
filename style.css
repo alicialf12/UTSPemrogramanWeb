@@ -1,0 +1,146 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sono', sans-serif;
+}
+.wrapper {
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #395144;
+    margin-left: 10px;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    top: 0;
+    position: sticky;
+    background: #F0EBCE;
+    z-index: 1;
+    border-bottom:1px solid #395144;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: #4E6C50;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+section {
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+img{
+    height: 400px;
+    border-radius: 20px;
+    margin: 10px 10px 0px 0px;
+}
+.kolom {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    font-size: 15px;
+}
+.kolom .deskripsi {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Sono', sans-serif;
+    color: #4E6C50;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+h1 {
+    font-family: courier;
+    font-weight: 800;
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #395144;
+    width: 100%;
+    line-height: 50px;
+}
+h2 {
+    font-family: courier;
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #395144;
+    width: 100%;
+    line-height: 50px;
+}
+a.book{
+    background-color: #F0EBCE;
+    border-radius: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #AA8B56;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+}
+a.book:hover{
+    background: #FFFAD7;
+    text-decoration: underline;
+}
+p{
+    margin-top: 10px;
+    padding: 15px 0px 15px 0px;
+}
+.center{
+    text-align: center;
+    width: 100%;
+}
+p{
+    color:#4E6C50;
+    font-weight: bold;
+    font-family: 'Sono', sans-serif;
+}
+.list-destination{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.destination-info{
+    width: 30%;
+    margin: 0 auto;
+}
+.destination-info img{
+    width: 70%;
+    height: 150px;
+}
+.destination-info p{
+    color: #4E6C50;
+    font-weight: bold;
+    text-align: center;
+}
